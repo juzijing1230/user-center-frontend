@@ -31,13 +31,13 @@ export default [
   },
   {
     path: '/welcome',
-    name: 'welcome',
+    name: '欢迎',
     icon: 'smile',
     component: './Welcome',
   },
   {
     path: '/admin',
-    name: 'admin',
+    name: '管理员',
     icon: 'crown',
     access: 'canAdmin',
     component: './Admin',
@@ -48,7 +48,7 @@ export default [
     ],
   },
   {
-    name: 'list.table-list',
+    name: '查询表格',
     icon: 'table',
     path: '/list',
     component: './table-list',
